@@ -170,6 +170,7 @@ main {
 
 @media (width < 650px) {
   body {
+    background-color: red;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
@@ -186,17 +187,23 @@ main {
     }
   }
   .item {
-    width: 130px;
-    height: 220px;
+    /* width: 130px;
+    height: 220px; */
+    /* height: 100vh; */
+    width: 100vw;
+    overflow: hidden;
 
     &:nth-child(3) {
       left: 50%;
+      opacity: 0;
     }
     &:nth-child(4) {
       left: calc(50% + 140px);
+      opacity: 0;
     }
     &:nth-child(5) {
       left: calc(50% + 280px);
+      opacity: 0;
     }
     &:nth-child(6) {
       left: calc(50% + 420px);
